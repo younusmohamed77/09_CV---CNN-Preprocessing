@@ -1,0 +1,9 @@
+- Import the necessay libraries
+- Load the image for data augumentation
+- Apply data augumentation
+  - Do it in a function to visual the original and updated iamge
+  - With two arguments - original image and updated image)
+  - Doing the horizontal flip
+    - Sometimes we get the same images because it is random 
+    - Take all the features of the ImageDataGenerator and change them and update image randomly
+    - Reshape the cat image array
