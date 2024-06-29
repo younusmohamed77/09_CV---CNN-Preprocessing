@@ -1,0 +1,11 @@
+- Import the necessary libraries
+- Add the dataset - MNIST
+- Build the CNN model without padding 
+  - 28 x 28 x 1 image with 32 3 x 3 kernels
+- Flatten the image array
+- Add MLP over the flattened array
+- Get the model summary
+- Second time building the same netwrok with padding = 'same', one layer of padding. 
+  - We get same structure in the output
+- Adding strides = 1 - no difference and strides = 2 - huge difference
+
